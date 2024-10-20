@@ -1,9 +1,297 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.15">
   <diagram name="Page-1" id="En5sMjKXo9QAO0jV0Ed8">
-    <mxGraphModel>
+    <mxGraphModel dx="722" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-2" value="Initialize swim, bike, run, and total speeds as empty float arrays with 6 elements" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-3" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="320" as="sourcePoint" />
+            <mxPoint x="120" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129.5" y="340" as="sourcePoint" />
+            <mxPoint x="129.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-6" value="int i = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-7" value="i &amp;lt; 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-8" value="i++" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="320" as="sourcePoint" />
+            <mxPoint x="250" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-11" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-12" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-13" value="swim, bike, run, and average speeds [i]" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="110" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-15" value="Ask user for swim, bike, run, and average speed for the year 2007 + i" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.52;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159.5" y="500" as="sourcePoint" />
+            <mxPoint x="159.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-17" value="Initialize average speeds by category to an empty array of 4 floats" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-18" value="Initialize speeds to an array of pointers to the 4 speed arrays" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-19" value="Initialize the float highest_speed and integer highest_speed_year" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-20" value="Initialize the 4-element int array highest_by_category_years and float highest_by_category speeds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-21" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459.5" y="640" as="sourcePoint" />
+            <mxPoint x="459.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-24" value="int i = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-25" value="i &amp;lt; 4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="605" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-26" value="i++" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-33" value="" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="450" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-35" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459.5" y="760" as="sourcePoint" />
+            <mxPoint x="459.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-36" value="int j = 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-37" value="j &amp;lt; 6" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="725" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-38" value="j++" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-39" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="660" as="sourcePoint" />
+            <mxPoint x="480" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="780" as="sourcePoint" />
+            <mxPoint x="480" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-42" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-43" value="highest_speed is less than the speed in the position (i, j)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="840" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="894.5" as="sourcePoint" />
+            <mxPoint x="600" y="894.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="950" as="sourcePoint" />
+            <mxPoint x="479" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-47" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-48" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-49" value="Set highest_speed and highest_speed_year to the values corresponding to the current speed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="857.5" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-51" value="Highest speed in this category is less than the current speed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1010" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="1074.5" as="sourcePoint" />
+            <mxPoint x="605" y="1074.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1040" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="1140" as="sourcePoint" />
+            <mxPoint x="480" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-55" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="481" y="1150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-56" value="Set the ith item of highest_by_category_speeds to the current speed and update the ith element of highest_by_category_years" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1040" width="175" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-49" target="MWuCWE__CzTwykaLUHAZ-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="990" as="sourcePoint" />
+            <mxPoint x="690" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-58" value="Add the current speed to average_speeds_by_category to divide it by the number of elements later" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="717" y="1130" as="sourcePoint" />
+            <mxPoint x="560" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-60" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-61" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-62" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="619" as="sourcePoint" />
+            <mxPoint x="580" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-63" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="739.5" as="sourcePoint" />
+            <mxPoint x="580" y="739.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-64" value="Divide the ith element of average_speeds_by_category by 6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="710" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-66" value="Display all results in command line" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="595" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-67" value="Write results to W09B_3_result.txt" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-68" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="619" as="sourcePoint" />
+            <mxPoint x="770" y="619" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-1" target="MWuCWE__CzTwykaLUHAZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="130" as="sourcePoint" />
+            <mxPoint x="290" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWuCWE__CzTwykaLUHAZ-2" target="MWuCWE__CzTwykaLUHAZ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="300" as="sourcePoint" />
+            <mxPoint x="200" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="320" as="sourcePoint" />
+            <mxPoint x="420" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-72" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="350" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="450" as="sourcePoint" />
+            <mxPoint x="510" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-74" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="550" as="sourcePoint" />
+            <mxPoint x="510" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-75" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MWuCWE__CzTwykaLUHAZ-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWuCWE__CzTwykaLUHAZ-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="590" as="sourcePoint" />
+            <mxPoint x="880" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
