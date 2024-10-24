@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.8.0">
   <diagram name="Page-1" id="2hSpamvpWi_0svB0Zh0t">
-    <mxGraphModel dx="1122" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1265" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,67 +106,67 @@
             <mxPoint x="290" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-27" value="Initialize voltage_initial to the first value of the voltages array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="960" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-28" value="Initialize float extrema_distance to the sampling rate * the difference between the max and min indexes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1060" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ziFhbPX3V7UISP_kiZOL-27">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="920" as="sourcePoint" />
-            <mxPoint x="140" y="870" as="targetPoint" />
+            <mxPoint x="150" y="889.41" as="sourcePoint" />
+            <mxPoint x="340" y="889.41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ziFhbPX3V7UISP_kiZOL-28">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-41" value="Initialize voltage_initial to the first value of the voltages array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-42" value="Initialize float extrema_distance to the sampling rate * the difference between the max and min indexes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="740" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1020" as="sourcePoint" />
-            <mxPoint x="140" y="970" as="targetPoint" />
+            <mxPoint x="399.63" y="860" as="sourcePoint" />
+            <mxPoint x="399.63" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1140" as="sourcePoint" />
-            <mxPoint x="90" y="1190" as="targetPoint" />
+            <mxPoint x="399.33" y="740" as="sourcePoint" />
+            <mxPoint x="399" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-32" value="Use the formula ΔV_out / (V_in * A * S_g) = ε to find the strain at the min and max times" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="25" y="1190" width="130" height="70" as="geometry" />
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-45" value="Use the formula ΔV_out / (V_in * A * S_g) = ε to find the strain at the min and max times" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="620" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1260" as="sourcePoint" />
-            <mxPoint x="90" y="1310" as="targetPoint" />
+            <mxPoint x="399.33" y="620" as="sourcePoint" />
+            <mxPoint x="399.33" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-34" value="Write results to screen" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="1310" width="110" height="60" as="geometry" />
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-47" value="Write results to screen" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-35" value="Open APP_W10B_results.txt for writing and write results to it" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="1410" width="120" height="60" as="geometry" />
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-48" value="Open APP_W10B_results.txt for writing and write results to it" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ziFhbPX3V7UISP_kiZOL-35">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1370" as="sourcePoint" />
-            <mxPoint x="140" y="1320" as="targetPoint" />
+            <mxPoint x="399.68" y="510" as="sourcePoint" />
+            <mxPoint x="399.68" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-37" value="Close input and output files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="1510" width="120" height="60" as="geometry" />
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-50" value="Close input and output files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ziFhbPX3V7UISP_kiZOL-37">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-51" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1470" as="sourcePoint" />
-            <mxPoint x="140" y="1420" as="targetPoint" />
+            <mxPoint x="399.68" y="400" as="sourcePoint" />
+            <mxPoint x="399.68" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-39" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="35" y="1600" width="120" height="80" as="geometry" />
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-52" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ziFhbPX3V7UISP_kiZOL-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ziFhbPX3V7UISP_kiZOL-39">
+        <mxCell id="ziFhbPX3V7UISP_kiZOL-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="1570" as="sourcePoint" />
-            <mxPoint x="140" y="1520" as="targetPoint" />
+            <mxPoint x="399.68" y="290" as="sourcePoint" />
+            <mxPoint x="399.68" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
